@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScholarPath | Student Scholarships</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="navbar">
+      <a class="logo" href="#home">Scholar<span>Path</span></a>
+      <div class="nav-links">
+        <a href="#scholarships">Scholarships</a>
+        <a href="#steps">How It Works</a>
+        <a href="#apply">Enquire</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">YOUR FUTURE STARTS HERE</p>
+      <h1>Make your goals<br><span>possible.</span></h1>
+      <p class="hero-text">Explore sample scholarship opportunities and take the next step toward your education with confidence.</p>
+      <a class="primary-button" href="#scholarships">Explore Scholarships <span>↗</span></a>
+      <p class="demo-note">Student mini project · Sample information only</p>
+    </div>
+    <div class="hero-art"><div class="art-circle">🎓</div><div class="art-card">✦ Learning opens doors</div></div>
+  </header>
+
+  <main>
+    <section class="intro section">
+      <div>
+        <p class="eyebrow">ABOUT SCHOLARPATH</p>
+        <h2>Opportunity should be<br><span>easy to discover.</span></h2>
+      </div>
+      <div class="intro-copy">
+        <p>ScholarPath is a student-focused demonstration website that brings scholarship information into a clear, simple layout. Students can browse sample opportunities and review the basic details before applying through official channels.</p>
+        <p class="small-note">The scholarship listings on this page are fictional examples for an academic project.</p>
+      </div>
+    </section>
+
+    <section class="section scholarship-section" id="scholarships">
+      <div class="section-heading">
+        <div><p class="eyebrow">EXPLORE OPPORTUNITIES</p><h2>Featured scholarships</h2></div>
+        <span class="demo-pill">3 sample listings</span>
+      </div>
+      <div class="scholarship-grid">
+        <article class="scholarship-card">
+          <div class="card-top lavender"><span class="card-icon">📘</span><span class="tag">Merit-based</span></div>
+          <div class="card-body"><p class="card-kicker">ACADEMIC EXCELLENCE</p><h3>Bright Future Award</h3><p class="amount">₹25,000 <small>/ sample award</small></p><p class="description">For students demonstrating strong academic performance.</p><div class="card-bottom"><span>Eligibility: Academic record</span><span>↗</span></div></div>
+        </article>
+        <article class="scholarship-card">
+          <div class="card-top mint"><span class="card-icon">🌱</span><span class="tag">Need-based</span></div>
+          <div class="card-body"><p class="card-kicker">STUDENT SUPPORT</p><h3>Education Support Grant</h3><p class="amount">₹15,000 <small>/ sample award</small></p><p class="description">A sample grant for students who need financial support.</p><div class="card-bottom"><span>Eligibility: Financial need</span><span>↗</span></div></div>
+        </article>
+        <article class="scholarship-card">
+          <div class="card-top peach"><span class="card-icon">💡</span><span class="tag">Innovation</span></div>
+          <div class="card-body"><p class="card-kicker">IDEAS & INNOVATION</p><h3>Young Innovators Fund</h3><p class="amount">₹20,000 <small>/ sample award</small></p><p class="description">For students interested in projects and creative ideas.</p><div class="card-bottom"><span>Eligibility: Project idea</span><span>↗</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="steps-section" id="steps">
+      <div class="section">
+        <p class="eyebrow">A SIMPLE PROCESS</p><h2>Three steps to get started.</h2>
+        <div class="steps-grid">
+          <article class="step"><span>01</span><h3>Explore</h3><p>Read the scholarship description and check its eligibility requirements.</p></article>
+          <article class="step"><span>02</span><h3>Prepare</h3><p>Keep academic records and any required documents ready.</p></article>
+          <article class="step"><span>03</span><h3>Apply officially</h3><p>Use the verified official portal for any real scholarship application.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section apply-section" id="apply">
+      <div class="apply-copy">
+        <p class="eyebrow">TAKE THE NEXT STEP</p>
+        <h2>Find the right path<br><span>for your future.</span></h2>
+        <p>Try the sample enquiry form to see how a student scholarship website can collect basic interest details.</p>
+        <div class="privacy-note">✓ Demo form only. Your details are not sent or saved.</div>
+      </div>
+      <form class="apply-form">
+        <label for="name">Student name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required>
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        <label for="course">Course / department</label>
+        <input id="course" name="course" type="text" placeholder="e.g. CSE (AI)" required>
+        <label for="interest">Scholarship of interest</label>
+        <select id="interest" name="interest"><option>Bright Future Award</option><option>Education Support Grant</option><option>Young Innovators Fund</option></select>
+        <button type="button" onclick="alert('This is a demonstration form. Your details have not been sent or saved.')">Send Enquiry <span>↗</span></button>
+        <p class="form-note">Sample webpage · Not an official scholarship portal</p>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <a class="logo footer-logo" href="#home">Scholar<span>Path</span></a>
+    <p>Helping students discover possibilities.</p>
+    <p class="footer-credit">Fundamentals of Full Stack · First Year CSE</p>
+  </footer>
+</body>
+</html>
